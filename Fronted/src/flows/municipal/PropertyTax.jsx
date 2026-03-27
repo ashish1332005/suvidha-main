@@ -141,7 +141,7 @@ export function PropertyTax({ t, flow, setScreen }) {
   const [receipt,   setReceipt]  = useState(null);
   const [loading,   setLoading]  = useState(false);
   const [error,     setError]    = useState("");
-  const [payStatus, setPayStatus]= useState("waiting"); // waiting|success|failed
+// Variable removed to fix build error
 
   // Barcode scanner support
   const bufRef = useRef("");
