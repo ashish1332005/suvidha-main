@@ -684,7 +684,7 @@ function QRScreen({ bill, consumer, referenceNo, qrData, method, onSuccess, onFa
 // ═══════════════════════════════════════════════════════════════
 export function BillPay({ dept = "electricity", t, setScreen, lang = "en", senior }) {
   const th = DEPT[dept] || DEPT.electricity;
-  const { accent, accentD, grad, light, lb, icon, label, labelHi, provider } = th;
+const { accent, grad, light, lb, icon, label, labelHi, provider } = th;
   const s = S[lang] || S.en;
   const deptName = lang === "hi" ? labelHi : label;
 
