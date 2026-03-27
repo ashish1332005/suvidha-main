@@ -208,13 +208,13 @@ export function PropertyTax({ t, flow, setScreen }) {
         const r = await api.checkPaymentStatus(referenceNo);
         if (r.status === "Success") {
           clearInterval(iv);
-          setPayStatus("success");
+         // setPayStatus("success");
           const rec = await api.getReceipt(referenceNo);
           setReceipt(rec.receipt);
           setStep(5);
         } else if (r.status === "Failed") {
           clearInterval(iv);
-          setPayStatus("failed");
+         // setPayStatus("failed");
         }
       } catch (_) {}
     }, 3000);
