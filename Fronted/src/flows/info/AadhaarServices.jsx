@@ -24,8 +24,7 @@
  *   <AadhaarServices lang={lang} setScreen={setScreen} />
  */
 
-import { useState, useEffect, useRef } from 'react';
-
+import { useState, useCallback } from "react";
 // ─────────────────────────────────────────────────────────────────
 //  DESIGN TOKENS — identical to VoterID.jsx / HomeScreen.jsx
 // ─────────────────────────────────────────────────────────────────
