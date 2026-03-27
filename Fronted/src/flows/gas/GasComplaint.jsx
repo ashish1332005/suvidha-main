@@ -8,7 +8,7 @@
  * - Print support
  */
 
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import api from "../../api/kioskApi";
 
 const C = "#F97316";
