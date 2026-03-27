@@ -1,0 +1,42 @@
+export const T = {
+  en: {
+    selectService: "How can we help you today?", subSelect: "Touch any department to get started",
+    back: "Back", home: "Home", seniorMode: "Senior Mode", normalMode: "Normal Mode",
+    consumerNo: "Enter Consumer / Account Number", proceed: "Proceed", payNow: "Pay Bill",
+    submitComplaint: "Submit Complaint", complaintSubmitted: "Complaint Registered",
+    paymentSuccess: "Payment Successful", downloadReceipt: "Print Receipt",
+    newTransaction: "New Transaction", selectPayment: "Choose Payment Method",
+    upi: "UPI", card: "Debit / Credit Card", netbanking: "Net Banking",
+    processing: "Processing your payment securely…",
+    refNo: "Reference No.", amount: "Amount Due", name: "Consumer Name",
+    address: "Address", units: "Units Consumed", dueDate: "Due Date",
+    complaintType: "Select Complaint Type", description: "Describe your issue",
+    yourName: "Your Full Name", mobile: "Mobile Number",
+    trackId: "Tracking ID", estTime: "Est. Resolution", dept: "Department",
+    departments: { electricity: "Electricity", gas: "Gas / LPG", municipal: "Municipal Corp", info: "Info & Schemes" },
+    elec: { title: "Electricity Services", billPay: "Pay Bill", newConn: "New Connection", complaint: "Lodge Complaint", loadEnhance: "Load Enhancement", history: "Usage History", theft: "Report Theft", outage: "Outage Report", nameChange: "Name Change" },
+    gas: { title: "Gas / LPG Services", billPay: "Pay Bill", newConn: "New Connection", leak: "Gas Leak Emergency", transfer: "Connection Transfer", meter: "Meter Reading", scheme: "PM Ujjwala Yojana", complaint: "Lodge Complaint", subsidy: "Subsidy Status" },
+    muni: { title: "Municipal Services", propTax: "Property Tax", water: "Water Bill", birth: "Birth Certificate", death: "Death Certificate", trade: "Trade License", sanitation: "Sanitation Complaint", building: "Building Plan", park: "Park Booking" },
+    info: { title: "Info & Schemes", pmAwas: "PM Awas Yojana", pmKisan: "PM Kisan Samman", ayushman: "Ayushman Bharat", ujjwala: "PM Ujjwala Yojana", scholarship: "Scholarships", locator: "Service Locator", helpline: "Helpline Numbers", faq: "FAQs" }
+  },
+  hi: {
+    selectService: "आज हम आपकी कैसे मदद कर सकते हैं?", subSelect: "शुरू करने के लिए विभाग चुनें",
+    back: "वापस", home: "होम", seniorMode: "वरिष्ठ मोड", normalMode: "सामान्य मोड",
+    consumerNo: "उपभोक्ता / खाता नंबर दर्ज करें", proceed: "आगे बढ़ें", payNow: "बिल भुगतान",
+    submitComplaint: "शिकायत दर्ज करें", complaintSubmitted: "शिकायत दर्ज हो गई",
+    paymentSuccess: "भुगतान सफल", downloadReceipt: "रसीद प्रिंट करें",
+    newTransaction: "नया लेनदेन", selectPayment: "भुगतान विधि चुनें",
+    upi: "UPI", card: "डेबिट / क्रेडिट कार्ड", netbanking: "नेट बैंकिंग",
+    processing: "भुगतान सुरक्षित रूप से प्रोसेस हो रहा है…",
+    refNo: "संदर्भ संख्या", amount: "देय राशि", name: "उपभोक्ता नाम",
+    address: "पता", units: "उपभोग इकाइयाँ", dueDate: "देय तिथि",
+    complaintType: "शिकायत का प्रकार चुनें", description: "अपनी समस्या बताएं",
+    yourName: "आपका पूरा नाम", mobile: "मोबाइल नंबर",
+    trackId: "ट्रैकिंग आईडी", estTime: "अनुमानित समाधान", dept: "विभाग",
+    departments: { electricity: "बिजली", gas: "गैस / एलपीजी", municipal: "नगर पालिका", info: "जानकारी" },
+    elec: { title: "बिजली सेवाएं", billPay: "बिल भुगतान", newConn: "नया कनेक्शन", complaint: "शिकायत दर्ज करें", loadEnhance: "लोड वृद्धि", history: "उपयोग इतिहास", theft: "चोरी रिपोर्ट", outage: "बिजली गुल", nameChange: "नाम बदलाव" },
+    gas: { title: "गैस सेवाएं", billPay: "बिल भुगतान", newConn: "नया कनेक्शन", leak: "गैस लीक आपातकाल", transfer: "कनेक्शन ट्रांसफर", meter: "मीटर रीडिंग", scheme: "PM उज्ज्वला योजना", complaint: "शिकायत दर्ज करें", subsidy: "सब्सिडी स्थिति" },
+    muni: { title: "नगर पालिका सेवाएं", propTax: "संपत्ति कर", water: "पानी का बिल", birth: "जन्म प्रमाण पत्र", death: "मृत्यु प्रमाण पत्र", trade: "व्यापार लाइसेंस", sanitation: "सफाई शिकायत", building: "बिल्डिंग प्लान", park: "पार्क बुकिंग" },
+    info: { title: "जानकारी और योजनाएं", pmAwas: "PM आवास योजना", pmKisan: "PM किसान सम्मान", ayushman: "आयुष्मान भारत", ujjwala: "PM उज्ज्वला योजना", scholarship: "छात्रवृत्ति", locator: "सेवा लोकेटर", helpline: "हेल्पलाइन नंबर", faq: "सामान्य प्रश्न" }
+  }
+};
