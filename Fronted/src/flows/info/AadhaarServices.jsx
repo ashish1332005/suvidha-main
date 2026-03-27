@@ -478,7 +478,7 @@ export function AadhaarServices({ lang = 'en', setScreen }) {
   // OTP
   const [otp,         setOtp]       = useState('');
   const [otpCd,       setOtpCd]     = useState(0);
-  const [otpVerified, setOtpVerif]  = useState(false);
+ // const [otpVerified, setOtpVerif]  = useState(false);
   const [devOtp,      setDevOtp]    = useState('');
 
   // Service-specific
